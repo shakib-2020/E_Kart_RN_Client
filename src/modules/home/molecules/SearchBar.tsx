@@ -1,7 +1,6 @@
 import {Image, Pressable, StyleSheet, Text, View} from 'react-native';
 import React, {useState} from 'react';
 import RollingContent from 'react-native-rolling-bar';
-import {SafeAreaView} from 'react-native-safe-area-context';
 import {RFValue} from 'react-native-responsive-fontsize';
 import {Colors} from '@utils/Constants';
 import Icon from '@components/atoms/Icon';

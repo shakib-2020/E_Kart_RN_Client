@@ -2,7 +2,7 @@ import {Platform} from 'react-native';
 
 // for emulator or simulator device
 export const BASE_URL =
-  Platform.OS === 'android' ? 'http://10.0.2.2:3000' : 'http://localhost:3000';
+  Platform.OS === 'android' ? 'http://192.168.0.103:3000' : 'http://localhost:3000';
 
 // for physical devices
 // use your network ip or hosted url

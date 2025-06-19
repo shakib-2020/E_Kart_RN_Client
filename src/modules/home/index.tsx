@@ -1,4 +1,5 @@
-import {Platform, StatusBar, StyleSheet, View} from 'react-native';
+/* eslint-disable react-native/no-inline-styles */
+import {Platform, StyleSheet, View} from 'react-native';
 import React from 'react';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import Animated, {

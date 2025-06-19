@@ -2,7 +2,7 @@
 import {FlatList, Image, Pressable, StyleSheet, Text, View} from 'react-native';
 import React, {FC} from 'react';
 import {RFValue} from 'react-native-responsive-fontsize';
-import {FONTS, screenHeight, screenWidth} from '@utils/Constants';
+import {FONTS, screenWidth} from '@utils/Constants';
 import {navigate} from '@navigation/NavigationUtil';
 
 const AnimatedHorizontalList: FC<{data: any}> = ({data}) => {
